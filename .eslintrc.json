@@ -1,6 +1,10 @@
 {
+  "extends": ["eslint:recommended"],
+  "plugins": [],
+  "parserOptions": {},
+  "env": { "browser": true },
+  "globals": {},
   "rules": {
-    "no-extra-semi": "warn",
-    "quotes": ["warn", "single"]
+    "semi": "error"
   }
 }
